@@ -14,12 +14,12 @@ node
  
 
 
- /*
+
  stage('Build')
  {
  sh  "${mavenHome}/bin/mvn clean package"
  }
- 
+  /*
  stage('ExecuteSoanrQubeReport')
  {
  sh  "${mavenHome}/bin/mvn sonar:sonar"
